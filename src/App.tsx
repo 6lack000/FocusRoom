@@ -1,0 +1,23 @@
+import { useState } from 'react'
+import './App.css'
+import {Navbar} from './components/Navbar'
+import {Hero} from './components/Hero'
+import { CurrentSession } from './components/CurrentSession'
+import { PreviousSession } from './components/PreviousSession'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+        <Navbar />
+        <Hero />
+        <CurrentSession /> 
+        <PreviousSession />
+      </div>
+    </>
+  )
+}
+
+export default App
