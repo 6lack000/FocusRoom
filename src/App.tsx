@@ -6,7 +6,6 @@ import { CurrentSession } from './components/CurrentSession'
 import { PreviousSession } from './components/PreviousSession'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
